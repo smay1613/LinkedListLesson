@@ -29,7 +29,7 @@ public:
 
 private:
     void remove(PlaylistItem* item);
-    void insert(const PlaylistItem& value, PlaylistItem* position);
+    void insert(const PlaylistItem& value, PlaylistItem* position); // optional
 
     size_t m_size;
     PlaylistItem* m_head;

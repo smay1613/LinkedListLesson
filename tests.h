@@ -72,7 +72,7 @@ void testFind() {
              resultValue->trackURI == expectedValue.trackURI));
 
     std::string nonexistentValue = "test.mp3";
-    resultValue = TestFixture::playlist.find(nonexistentValue);
+    resultValue = TestFixture::playlist.find({nonexistentValue});
     assert(("Find failure for not existent file entry",
              resultValue == nullptr));
 
