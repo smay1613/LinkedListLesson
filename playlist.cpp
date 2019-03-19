@@ -3,7 +3,8 @@
 Playlist::Playlist()
     : m_size {0},
       m_head {nullptr},
-      m_tail {nullptr}
+      m_tail {nullptr},
+      m_currentTrack {nullptr}
 {
 }
 
