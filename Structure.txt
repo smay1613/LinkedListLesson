@@ -1,0 +1,15 @@
+1. Array lists
+-Example array
+-Memory organization (What is random access, insert operations)
+-EXCERCISE BREAK
+
+2. Linked lists
+-Nodes
+-Head iterator
+-Tail iterator
+-Types of list  (singly/doubly-linked list)
+- EXCERCISE BREAK
+-Operations
+(Search: recursive/iterative,
+Insertion: prepend, append, insert
+Remove)

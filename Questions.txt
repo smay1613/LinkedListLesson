@@ -1,0 +1,5 @@
+EXERCISE BREAK: You create an array of integers (assume each integer is exactly 4 bytes) in memory, and the beginning of the array (i.e., the start of the very first cell of the array) happens to be at memory address 1000 (in decimal, not binary). What is the memory address of the start of cell 6 of the array, assuming 0-based indexing (i.e., cell 0 is the first cell of the array)?
+
+STOP and Think: Array structures (e.g. the array, or the Java ArrayList, or the C++ vector, etc.) require that all elements be the same size. However, array structures can contain strings, which can be different lengths (and thus different sizes in memory). How is this possible?
+
+EXERCISE BREAK: If I only have direct access to the head or tail pointer in a Linked List, and I can only access the other elements by following the nodes' pointers, what is worst-case time complexity of finding an element in a Linked List with n elements?
