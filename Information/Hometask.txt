@@ -1,0 +1,13 @@
+Easy level:
+-Implement method "insert" in playlist.cpp and accordingly change the pushBack/pushFront methods.
+
+Middle level:
+-Implement "reverse" feature for playlist.
+-Implement "repeated playlist" by making linked list circular. (When head prev points to the tail, and tail next points to the head)
+
+Advanced level:
+-In our case, we've implemented linked list together with class that uses it (playlist).
+Try to separate linked list specific methods and data to abstract class, and then inherit Playlist from abstract LinkedList class.
+Then, try to implement composition (class Playlist will contain the LinkedList, and not inherit it).
+Stop and think, what is preferrable solution for this case? Should the Playlist access private members of LinkedList?
+If it should, how can we provide access to it?
