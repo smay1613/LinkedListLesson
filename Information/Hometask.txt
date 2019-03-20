@@ -1,5 +1,6 @@
 Easy level:
 -Implement method "insert" in playlist.cpp and accordingly change the pushBack/pushFront methods.
+-Add destructor for playlist
 
 Middle level:
 -Implement "reverse" feature for playlist.
